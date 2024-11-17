@@ -4,8 +4,6 @@
 
 This project extends the [`Carla`](https://github.com/carla-simulator/carla/tree/0.9.13) simulator to add virtual reality integration, a first-person maneuverable ego-vehicle, eye tracking support, and several immersion enhancements.
 
-If you have questions, hopefully our [F.A.Q. wiki page](https://github.com/HARPLab/DReyeVR/wiki/Frequently-Asked-Questions) and [issues page](https://github.com/HARPLab/DReyeVR/issues?q=is%3Aissue+is%3Aclosed) can answer some of them.
-
 **IMPORTANT:** Currently DReyeVR only supports Carla versions: [0.9.13](https://github.com/carla-simulator/carla/tree/0.9.13) with Unreal Engine 4.26
 
 ## Highlights

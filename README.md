@@ -19,10 +19,9 @@ Fully drivable **virtual reality (VR) ego-vehicle** with [SteamVR integration](h
   - Eye tracking is currently **ONLY** supported on the HTC Vive Pro Eye since we use [SRanipal](https://forum.htc.com/topic/5641-sranipal-faq/) for the eye-tracker SDK. We are happy to support more devices through contributions for adding other SDKs. 
 - Vehicle controls:
   - Generic keyboard WASD + mouse
-  - Support for Logitech Steering wheel with this open source [LogitechWheelPlugin](https://github.com/HARPLab/LogitechWheelPlugin) 
+  - Support for Logitech Steering wheel
     - Includes force-feedback with the steering wheel.
     - We used a [Logitech G923 Racing Wheel & Pedals](https://www.logitechg.com/en-us/products/driving/driving-force-racing-wheel.html)
-      - Full list of supported devices can be found [here](https://github.com/HARPLab/LogitechWheelPlugin/blob/master/README.md) though we can't guarantee out-of-box functionality without testing. 
 - Realistic (and parameterizable) rear & side view mirrors 
   - WARNING: very performance intensive
 - Vehicle dashboard:

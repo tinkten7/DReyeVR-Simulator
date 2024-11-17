@@ -86,45 +86,15 @@ See [`Docs/Install.md`](Docs/Install.md) to:
   - Steering wheel/pedals (Logitech)
 - Set up a `conda` environment for DReyeVR PythonAPI
 
-## OS compatibility
-| OS | VR | Eye tracking | Audio | Keyboard+Mouse | Racing wheel | Foveated Rendering (Editor) |
-| --- | --- | --- | --- | --- | --- | --- |
-| Windows | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Linux | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: |
-| MacOS | :x: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: |
-- While Windows (10) is recommended for optimized VR support, all our work translates to Linux systems except for the eye tracking and hardware integration which have Windows-only dependencies.
-  - Unfortunately the eye-tracking firmware is proprietary & does not work on Linux
-    - This is (currently) only supported on Windows because of some proprietary dependencies between [HTC SRanipal SDK](https://developer.vive.com/resources/knowledgebase/vive-sranipal-sdk/) and Tobii's SDK. Those interested in the Linux discussion for HTC's Vive Pro Eye Tracking can follow the subject [here (Vive)](https://forum.vive.com/topic/6994-eye-tracking-in-linux/), [here (Vive)](https://forum.vive.com/topic/7012-vive-pro-eye-on-ubuntu-16-or-18/), and [here (Tobii)](https://developer.tobii.com/community/forums/topic/vive-pro-eye-with-stream-engine/).
-  - Additionally, the [LogitechWheelPlugin](https://github.com/HARPLab/LogitechWheelPlugin) we use only has Windows support currently. Though it should be possible to use the G923 on Linux as per the [Arch Wiki](https://wiki.archlinux.org/title/Logitech_Racing_Wheel).
-- Also, although MacOS is not officially supported by CARLA, we have development happening on an Apple Silicon machine and have active forks of CARLA + UE4.26 with MacOS 12+ support. Note that this is primarily for development, as it is the most limited system by far. 
+
 
 ## Documentation & Guides
-- See [`F.A.Q. wiki`](https://github.com/HARPLab/DReyeVR/wiki/Frequently-Asked-Questions) for our Frequently Asked Questions wiki page.
 - See [`Install.md`](Docs/Install.md) to install and build DReyeVR
 - See [`Usage.md`](Docs/Usage.md) to learn how to use our provided DReyeVR features
 - See [`Development.md`](Docs/Development.md) to get started with DReyeVR development and add new features
 - See [`Docs/Tutorials/`](Docs/Tutorials/) to view several DReyeVR tutorials such as customizing the EgoVehicle, adding custom signs/props and more.
 
-## Citation
-If you use our work, please cite the corresponding [paper](https://arxiv.org/abs/2201.01931):
-```bibtex
-@inproceedings{silvera2022dreyevr,
-  title={DReyeVR: Democratizing Virtual Reality Driving Simulation for Behavioural \& Interaction Research},
-  author={Silvera, Gustavo and Biswas, Abhijat and Admoni, Henny},
-  booktitle={Proceedings of the 2022 ACM/IEEE International Conference on Human-Robot Interaction},
-  pages={639--643},
-  year={2022}
-}
-```
 
-## Acknowledgements
 
-- This project builds upon and extends the [CARLA simulator](https://carla.org/)
-- This repo includes some code from CARLA: Computer Vision Center (CVC) at the Universitat Autonoma de Barcelona (UAB) & Intel Corporation.
-- This repo includes some code from Hewlett-Packard Development Company, LP. See [nvidia.ph](Tools/Diagnostics/collectl/nvidia.ph). This is a modified diagnostic tool used during development. 
-
-## Licenses
-- Custom DReyeVR code is distributed under the MIT License.
-- Unreal Engine 4 follows its [own license terms](https://www.unrealengine.com/en-US/faq).
-- Code used from other sources that is prefixed with a Copyright header belongs to those individuals/organizations. 
-- CARLA specific licenses (and dependencies) are described on their [GitHub](https://github.com/carla-simulator/carla#licenses)
+## Reference
+- [Paper](https://arxiv.org/abs/2201.01931)
